@@ -1,0 +1,40 @@
+{
+  "name": "Reader Mode",
+  "description": "Enjoy distraction-free reading experience on web pages",
+  "launch_path": "/index.html",
+  "icons": {
+    "16": "/icons/icon16x16.png",
+    "48": "/icons/icon48x48.png",
+    "60": "/icons/icon60x60.png",
+    "128": "/icons/icon128x128.png"
+  },
+  "developer": {
+    "name": "Shing Lyu",
+    "url": "https://shinglyu.github.io"
+  },
+  "activities": {
+     "save-bookmark": {
+        "filters": {
+          "type": "url"
+        },
+        "disposition": "inline",
+        "href": "/read.html",
+        "returnValue": false
+      },
+      "share": {
+        "filters": {
+          "type": "url"
+        },
+        "disposition": "inline",
+        "href": "/read.html",
+        "returnValue": false
+      }
+
+  },
+  "permissions": {
+    "systemXHR": {
+      "description": "Required to access the Readability API"
+    }
+  },
+  "type": "privileged"
+}

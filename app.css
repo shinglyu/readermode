@@ -1,0 +1,23 @@
+body {
+  margin: 0px;
+}
+#article_content {
+  /*line-height: 1.2em;*/
+  background-color: #EfE0B9;
+  color: #643B0F;
+  padding: 1.0em;
+  min-height: 100vh;
+}
+
+#article_content h3{
+  font-size: 1.8rem;
+}
+
+#article_content p{
+  font-size: 1.5rem;
+  line-height: 2.3rem;
+}
+
+#article_content img, iframe {
+  width: 100%;
+}
